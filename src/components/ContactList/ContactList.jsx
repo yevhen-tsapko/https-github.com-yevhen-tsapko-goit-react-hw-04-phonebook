@@ -19,13 +19,6 @@ export const ContactList = ({ contList, removeContact }) => (
   </ul>
 );
 ContactList.propTypes = {
-  // contList: arrayOf(
-  //   PropTypes.shape({
-  //     id: PropTypes.string.isRequired,
-  //     name: PropTypes.string.isRequired,
-  //     number: PropTypes.number.isRequired,
-  //   })
-  // ),
   contList: PropTypes.array,
   removeContact: PropTypes.func.isRequired,
 };
